@@ -6,10 +6,10 @@ import com.app.gameexplorer.domain.repository.GameRepository
 import com.app.gameexplorer.domain.util.Resource
 import javax.inject.Inject
 
-class GetGamesUseCase @Inject constructor(
+class GetGameDetailUseCase @Inject constructor(
     private val repository: GameRepository
 ) {
-    suspend operator fun invoke(page: Int, genres: String): Resource<List<Game>> {
-        return repository.getGames(BuildConfig.RAWG_API_KEY, page, genres)
+    suspend operator fun invoke(gameId: Int): Resource<Game> {
+        return repository.getGameById(gameId, BuildConfig.RAWG_API_KEY)
     }
 }

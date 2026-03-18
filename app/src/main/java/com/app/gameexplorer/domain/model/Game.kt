@@ -5,5 +5,6 @@ data class Game(
     val name: String,
     val backgroundImage: String,
     val rating: Double,
-    val released: String?
+    val released: String?,
+    val description: String?
 )

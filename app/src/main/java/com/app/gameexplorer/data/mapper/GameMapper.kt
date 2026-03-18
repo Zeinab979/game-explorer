@@ -9,6 +9,7 @@ fun GameDto.toDomain(): Game {
         name = name,
         backgroundImage = backgroundImage,
         rating = rating,
-        released = released
+        released = released,
+        description = description
     )
 }
