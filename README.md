@@ -28,8 +28,6 @@ Rating
 
 Description
 
-(Optional) Screenshots + Trailer video
-
 🛠️ Tech Stack
 Core
 
