@@ -4,6 +4,7 @@ A modern Android application for browsing video games by genre using the RAWG AP
 Built with Jetpack Compose, MVVM, Kotlin Coroutines, Flow, Retrofit, and Hilt.
 
 📌 Features
+
 🎮 Games List Screen
 
 Displays game name, image, and rating
